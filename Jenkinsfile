@@ -9,7 +9,7 @@ pipeline {
         stage('Preparation') {
             steps {
                 
-                git 'https://github.com/maneanuja1525/TestNG-Maven.git'
+                git 'https://github.com/maneanuja1525/TestNG_Phase2Project.git'
             }
         }
         stage('Build') {
